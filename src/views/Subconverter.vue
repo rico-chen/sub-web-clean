@@ -219,7 +219,7 @@
               <el-form-item label-width="0px" style="margin-top: 40px; text-align: center">
                 <el-button
                     style="width: 120px"
-                    type="danger"
+                    type="primary"
                     @click="makeUrl"
                     :disabled="form.sourceSubUrl.length === 0 || btnBoolean"
                 >生成订阅链接
